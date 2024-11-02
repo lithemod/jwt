@@ -1,0 +1,21 @@
+{
+    "name": "lithemod/jwt",
+    "description": "A lightweight JWT authentication library for Lithe framework, providing secure token generation, validation, and middleware integration.",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Auth\\": "src/auth/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "lithemod/flow": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "mockery/mockery": "^1.6"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
